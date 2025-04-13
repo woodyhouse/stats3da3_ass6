@@ -1,2 +1,27 @@
-!ass6.ipynb
-!README.md
+# Ignore Python virtual environments and system junk
+*.pyc
+*.pyo
+__pycache__/
+*.log
+*.tmp
+*.dll
+*.exe
+*.so
+.DS_Store
+
+# Ignore venv and conda env folders
+DLLs/
+Lib/
+Library/
+Scripts/
+Tools/
+conda-meta/
+etc/
+include/
+libs/
+man/
+share/
+tcl/
+.nonadmin
+LICENSE_PYTHON.txt
+api-ms-win-core-*
